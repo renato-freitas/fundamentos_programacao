@@ -1,0 +1,120 @@
+\section{Funções Metamáticas}
+
+\begin{frame}
+	\frametitle{Funções Metamáticas}
+	\begin{itemize}
+		\item Uma função matemática é um mapeamento de membros de um conjunto, 
+		chamado de conjunto domínio, para outro, chamado de conjunto imagem (SEBESTA, 2018).
+		\item As funções são geralmente aplicadas a um elemento em particular do conjunto domínio, fornecido como um parâmetro 
+		para a função.
+		\item Uma função leva a, ou retorna, um elemento do conjunto imagem.
+		\item Uma das características fundamentais das funções matemáticas é que a 
+		ordem de avaliação de suas expressões de mapeamento é controlada por recursão e expressões condicionais, e não por sequência e repetição iterativa, 
+		comuns nas linguagens de programação imperativas.
+		\item elas não têm efeitos colaterais, sempre definem o mesmo valor quando fornecido o mesmo conjunto de argumentos.
+	\end{itemize}
+\end{frame}
+
+
+
+% Definição
+\begin{frame}
+	\frametitle{Funções Metamáticas}
+	\begin{itemize}
+		\item Funções matemáticas típicas são geralmente escritas como \textbf{um nome de função}, seguido de \textbf{uma lista de parâmetros} entre parênteses, seguidos pela \textbf{expressão de mapeamento}.
+	\end{itemize}
+
+	\begin{block}{\textbf{Função Simples}}
+		\[ cubo(x) \equiv x * x * x, \mbox{onde } x \mbox{ é um número real } (x \in \mathbb{R}) \]
+	\end{block}
+
+	\begin{itemize}
+		\item O símbolo $\equiv$ é usado para significar ``é definido como''.
+		\item O parâmetro $x$ pode representar qualquer membro do conjunto domínio
+	\end{itemize}
+
+	\begin{block}{\textbf{Função Simples Mais Formalemente}}
+		\[ cubo: \mathbb{R} \rightarrow \mathbb{R} \]
+	\end{block}
+\end{frame}
+
+
+% Aplicação
+\begin{frame}
+	\frametitle{Funções Metamáticas}
+	\begin{itemize}
+		\item Aplicações de funções matemáticas são especificadas por um par que contém o \textbf{nome da função} com um \textbf{elemento do conjunto domínio}.
+	\end{itemize}
+
+	\begin{block}{\textbf{Aplicação da função $cubo(x) \equiv x * x * x$}}
+		\[ cubo(2.0) \mbox{ leva ao valor } 8.0 \]
+	\end{block}
+
+	\begin{itemize}
+		\item Não há parâmetro desvinculado. Todos são do conjunto domínio da função.
+		\item Não há uma variável externa (local ou global)
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Funções Metamáticas}
+	\textbf{Função Lambda}
+	\begin{itemize}
+		\item primeiros trabalhos teóricos acerca de funções separaram a tarefa de defini-las da de nomeá-las.
+		\item Notaçao criada po Alonzo Church em 1941.
+		\item Método para definir funções sem nome: lista de parâmetros e mapeamento da função.
+		\begin{block}{\textbf{Expressão Lambda}}
+			\[ \lambda(x)x*x*x \]
+		\end{block}
+
+		\begin{block}{\textbf{Aplicando a Expressão Lambda}}
+			\[ (\lambda(x)x*x*x)(2) \mbox{ resulta no valor } 8\]
+		\end{block}
+	\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}
+	\frametitle{Funções de Ordem Superior}
+	\begin{itemize}
+		\item Uma função de ordem superior, ou forma funcional, é uma que recebe funções 
+		como parâmetros ou que leva a uma função como resultado, ou ambos
+		\item Composição de Funções
+		\begin{block}{\textbf{Forma Funcional}}
+			\[ h \equiv f \circ g \]
+		\end{block}
+
+		\begin{block}{\textbf{Aplicando a Forma Funcional}}
+			\begin{align*} 
+				f(x) \equiv 1 + x \\
+				g(x) \equiv x^2 \\
+				\mbox{ então } h \mbox{ é definida como} \\
+				h(x) \equiv f(g(x)) \mbox{ ou } h(x) \equiv 1 + (x^2)
+			\end{align*}
+		\end{block}
+	\end{itemize}
+\end{frame}
+
+
+
+
+% APLICAR PARA TODOS
+\begin{frame}
+	\frametitle{Funções de Ordem Superior}
+	\textbf{Aplicar-para-todos}
+	\begin{itemize}
+		\item Forma funcional que recebe uma 
+		única função como um parâmetro. Se aplicada para uma lista de argumentos, 
+		aplicar-para-todos aplica seu parâmetro funcional para cada um dos valores 
+		no argumento lista e coleta os resultados em uma lista ou em uma sequência. 
+		
+		\item Denotada por $\alpha$.
+		\begin{block}{\textbf{Forma Funcional Aplicar-pata-todos}}
+			\[ h(x) \equiv x * x, \mbox{ então} \]
+			\[ \alpha (h, (2, 3, 4)) \equiv [h(2), h(3), h(4)]
+			\mbox{ resulta em } (4, 9, 16) \]
+		\end{block}
+	\end{itemize}
+\end{frame}

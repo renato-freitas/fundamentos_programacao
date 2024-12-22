@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Apresentações}{3}{0}{1}
+\beamer@sectionintoc {2}{Ementa}{5}{0}{2}
+\beamer@sectionintoc {3}{Bibliografia}{6}{0}{3}
+\beamer@sectionintoc {4}{Metodologia \& Avaliação}{8}{0}{4}

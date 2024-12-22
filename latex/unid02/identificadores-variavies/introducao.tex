@@ -1,0 +1,160 @@
+\section{Constantes e Variáveis}
+\section{Identificadores}
+\section{Tipos de Dados}
+\section{Escopo}
+
+\begin{frame}
+	\frametitle{Constantes e Variáveis}
+	Em geral, um programa recebe e processa dados. Para o processamento, os dados precisam ser armazenados na memória computador.
+
+	Constantes e Variáveis são posições de memória que possuem nome e tipo.
+
+	o conceito de Constante significa algo que se mantém como está ou como foi definido.\\
+	São valores fixos que não podem ser alterados pelas instruções de um algoritmo.
+
+	Exemplos de constantes:\\
+	- valor de Pi ($\pi$): $3.14$\\
+	- a soma dos ângulos internos de um triângulo $180$º
+
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Constantes e Variáveis}
+	Uma variável pode ter o seu conteúdo alterado durante a execução de um programa.
+	Em geral, uma variável só pode armazenar um tipo de valor.\\
+	Essa é uma caracteristicas das linguagem fortemente tipadas.\\
+	Ou seja quando se determina um tipo a uma variável, o programa não permitirá atribuir outro tipo.\\
+	Por exemplo:\\
+	Se uma variável $x$ é definida como um texto, não é possível atribuir o número. 
+
+	Um computador possui uma tabela de alocação de memória que contém o nome, o tipo e o endereço inicial da variável.
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Constantes e Variáveis}
+	A memória de um computador atua semelhante a um armário com várias gavetas numeradas.\\
+
+	As gavetas são os espaços físicos para armazenas os dados.\\
+
+	As variáveis são diferenciadas por meio de identificadores.\\
+
+
+	Variáveis simples só armazena um valor por vez, de um tipo.
+	Exemplo: x é um inteiro, x := 5, depois x recebe o dobro de 5, x := 10
+
+	Descobri qual gaveta remover o valor antigo e substituir pelo novo.
+\end{frame}
+
+
+
+
+
+\begin{frame}
+	\frametitle{Identificadores}
+	Identificadores são nomes dados às variáveis, constantes, funções e demais elementos utilizados na programação.
+
+	Buscar um dados na memória basta informar o nome da variável.
+
+	Palavras reservadas???? sÃO Identificadores PREDEFINIDOS para serem usados pelos interpretador
+\end{frame}
+
+
+
+\begin{frame}
+	\frametitle{Identificadores}
+	Regras para criar identificadores:\\
+
+	\begin{itemize}
+		\item não pode começar com dígito;
+		\item pode ter letras, dígitos e \textit{underscore};
+		\item não pode conter caracteres especias como: 
+		\item não pode ser um palavra reservada de um linguagem de programação
+		\item não pode ter espaços em branco. ex "cor vermelha"
+	\end{itemize}
+	
+	Identificadores válidos:
+	idade, \_media\_alunos
+
+	inválidos:
+	1pwd, nota n2, 
+	Declara uma variável:
+	template: identificador: tipo\_primitivo
+\end{frame}
+
+
+
+
+
+\begin{frame}
+	\frametitle{Palavras reservadas}
+	\begin{block}{\textbf{Palavras reservadas em Portugol}}
+		inicio senao para enquanto var logico se ate faca inteiro real
+	\end{block}
+\end{frame}
+
+
+
+\begin{frame}
+	\frametitle{Tipos de Dados}
+	\begin{block}{\textbf{Tipos Primitivos}}
+		\begin{itemize}
+			\item \textbf{Numérico}
+			\item \textbf{Lógico}
+			\item \textbf{Literal ou Caractere}:
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+
+
+
+\begin{frame}
+	\frametitle{Tipos de Dados}
+		\begin{itemize}
+			\item \textbf{Numérico}: os dados númericos se dividem em dois grupos: \textit{inteiros} e \textit{reais}
+			\item podem ser positivos ou negativos
+			\item não possuem casas decimais
+			\item ocupa 2 bytes na memória
+		\end{itemize}
+\end{frame}
+
+
+
+
+\begin{frame}
+	\frametitle{Tipos de Dados}
+		\begin{itemize}
+			\item \textbf{Lógicos}: também conhecidos com "booleanos".
+			\item Só assumem dois valores: \textit{verdadeiro} ou \textit{falso}
+		\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}
+	\frametitle{Tipos de Dados}
+		\begin{itemize}
+			\item \textbf{Literal ou Caractere}: define variáveis que armazenarão um texto
+			\item  Esse textos são um formados por um único caratere ou por uma cadeia de caracteres. 
+		\end{itemize}
+\end{frame}
+
+
+
+
+
+
+
+\begin{frame}
+	\frametitle{Exercício}
+	Qual(is) o(s) tipo(s) primitivo de dados que aparecem nas sentenças a seguir:
+	\begin{itemize}
+		\item O título do livro é "A menina que roubava livros".
+		\item Este prédio terá vinte andares e custará R\$ 250.300,00 reais cada apartamento.
+		\item O carro dele percorre 100 metros em 11.34 segundos.
+		\item Você é brasileiro?
+		\item A primeira letra do alfabeto é "a". Isso está correto?
+	\end{itemize}
+\end{frame}

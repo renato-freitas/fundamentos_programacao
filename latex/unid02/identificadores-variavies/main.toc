@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Constantes e Variáveis}{3}{0}{1}
+\beamer@sectionintoc {2}{Identificadores}{3}{0}{2}
+\beamer@sectionintoc {3}{Tipos de Dados}{3}{0}{3}
+\beamer@sectionintoc {4}{Escopo}{3}{0}{4}

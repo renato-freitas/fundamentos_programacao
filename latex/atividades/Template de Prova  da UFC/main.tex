@@ -1,0 +1,61 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% This project aims to create a test template or exercise list from the        %%     
+%% Federal University of Ceará (UFC).                                           %%
+%% author: Maurício Moreira Neto - Doctoral student in Computer Science         %%
+%% contacts:                                                                    %%
+%%    e-mail: maumneto@ufc.br                                                   %%
+%%    linktree:  https://linktr.ee/maumneto                                     %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{ufcdocument}
+
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+
+%% Informations that will be insert in the table header 
+\def\course{Programação e Algoritmos}
+\def\prof{Renato Freitas}
+\def\semester{2025.1}
+\def\codeCourse{XXXXXX}
+\def\registration{}
+\def\student{}
+\def\graduate{Bacharelado em Ciência da Computação}
+\def\theme{Atividade}
+\def\thisDoc{atividade}
+
+\begin{document}
+    %% Table with the header
+    \makeheader
+    
+    %% Space for the instructions
+    \fbox{
+        \parbox{\textwidth}{
+            \begin{minipage}{\textwidth}
+                \makeinstructions
+                {
+                    \begin{instlist}
+                        \item A \thisDoc é individual e não é pesquisada.
+                        \item Preencha o cabeçalho da folha pergunta com seus dados.
+                        \item  Todas as folhas respostas devem conter o nome a a matrícula do aluno.
+                        \item O preenchimento das respostas deve ser feito utilizando caneta (preta ou azul).
+                        \item As repostas podem ser em português ou inglês (bônus para quem fizer em inglês)
+                    \end{instlist}
+                }
+            \end{minipage}
+        }
+    }
+    %% Space between the instructions and the questions.
+    \vspace{1cm}
+    
+    \begin{question}
+        \item Quais são as duas principais partes que compõem um computador? Dê pelo ao menos três exemplos de cada uma das partes.\points{2}
+
+        \item Escreva com suas palavras o que é algoritmo e o que é um programa.\points{1}
+        
+        \item Quais as técnicas de elaboração de algoritmo?\points{1}
+        
+        \item Cite uma desvantagem para cada uma das técnicas de elaboração de um algoritmo.\points{1}
+        
+        \item Quais as etapas que um programador dever seguir para construir um programa de computador? Discorra sobre cada uma das etapas.\points{2}
+    \end{question}
+
+\end{document}

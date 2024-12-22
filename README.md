@@ -28,3 +28,6 @@ Fundamentos de Programação
 
 
 jupyter nbconvert "unidade 1 - Conceitos de Programação.ipynb" --to slides
+
+
+https://cheatography.com/jcwinkler/cheat-sheets/latex-workshop-visual-studio-code/
